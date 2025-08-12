@@ -1,12 +1,10 @@
 README — Quốc Chiến Bio (1-file)
-
-──────────────────────────────────────────────────────────────────────────────
+───────────────────
 TỔNG QUAN
 - Đây là trang “bio” 1 file HTML (có CSS/JS inline), tối ưu nhẹ.
 - Thành phần chính: Header (avatar + apps), Thông báo, 3 danh mục (Tải Game / Auto Get Key / Tải File Mod),
   Kỹ năng (thanh tiến độ có animation), Lượt truy cập (tuỳ chọn).
-
-──────────────────────────────────────────────────────────────────────────────
+───────────────────
 TÍNH NĂNG CHÍNH
 1) Ảnh & Icon từ link ngoài (Google Drive thumbnail, CDN…)
 2) Nút icon tải riêng: chỉ khi bấm icon “download/open” mới mở link tải.
@@ -16,7 +14,7 @@ TÍNH NĂNG CHÍNH
 6) Scroll-reveal: thẻ .card xuất hiện mượt khi cuộn tới.
 7) Kỹ năng: thanh tiến độ chạy dần khi cuộn tới (IntersectionObserver).
 
-──────────────────────────────────────────────────────────────────────────────
+───────────────────
 CÁCH SỬA / TUỲ BIẾN
 
 A) Ảnh đại diện & icon ứng dụng (Header)
@@ -87,13 +85,13 @@ H) Ảnh Google Drive hiển thị nhanh
        onerror="this.onerror=null; this.src='https://drive.google.com/uc?export=view&id=FILE_ID';">
 - Nhớ bật quyền Share: Anyone with the link – Viewer.
 
-──────────────────────────────────────────────────────────────────────────────
+───────────────────
 MẸO TỐI ƯU NHANH
 - Thêm loading="lazy" và decoding="async" cho <img> lớn.
 - Duy trì kích thước hợp lý (512–1200px) để giảm tải.
 - Nếu có nhiều ảnh: cân nhắc CDN như jsDelivr (GitHub) hoặc Postimages.
 
-──────────────────────────────────────────────────────────────────────────────
+───────────────────
 DANH SÁCH CHỖ CẦN THAY THẾ NHANH
 1) Avatar (Header): <img class="avatar" src="LINK_AVATAR">
 2) Icon apps (Header): href + src trong <nav class="apps">…</nav>
@@ -104,8 +102,7 @@ DANH SÁCH CHỖ CẦN THAY THẾ NHANH
 5) Kỹ năng: data-pct trong #skills
 6) Đếm lượt truy cập: URL API hoặc xoá block
 7) Vai trò (typing): const roles = [ ... ]
-
-──────────────────────────────────────────────────────────────────────────────
+───────────────────
 BẢN QUYỀN & GHI CHÚ
 - Bạn được tự do chỉnh sửa/triển khai.
 - Nếu cần mình đóng gói thành .zip hoặc deploy Netlify/Vercel, cứ nhắn.
