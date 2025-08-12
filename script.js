@@ -43,7 +43,7 @@ setStamp(document.getElementById("time2"));
 // Lượt truy cập (sửa URL API của bạn)
 (async () => {
   try {
-    const r = await fetch("sử dụng api của bạn");
+    const r = await fetch("https://api-dem-luot-truy-cap.onrender.com/");
     const d = await r.json();
     document.getElementById("visitCounter").textContent = new Intl.NumberFormat().format(d.value) + "+";
   } catch {
