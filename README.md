@@ -1,9 +1,11 @@
 README — Quốc Chiến Bio (1-file)
+
 ───────────────────
 TỔNG QUAN
 - Đây là trang “bio” 1 file HTML (có CSS/JS inline), tối ưu nhẹ.
 - Thành phần chính: Header (avatar + apps), Thông báo, 3 danh mục (Tải Game / Auto Get Key / Tải File Mod),
   Kỹ năng (thanh tiến độ có animation), Lượt truy cập (tuỳ chọn).
+  
 ───────────────────
 TÍNH NĂNG CHÍNH
 1) Ảnh & Icon từ link ngoài (Google Drive thumbnail, CDN…)
@@ -13,6 +15,7 @@ TÍNH NĂNG CHÍNH
 5) Ripple effect cho các nút/app/icon.
 6) Scroll-reveal: thẻ .card xuất hiện mượt khi cuộn tới.
 7) Kỹ năng: thanh tiến độ chạy dần khi cuộn tới (IntersectionObserver).
+8) 
 
 ───────────────────
 CÁCH SỬA / TUỲ BIẾN
