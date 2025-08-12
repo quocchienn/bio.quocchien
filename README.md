@@ -94,16 +94,6 @@ MẸO TỐI ƯU NHANH
 - Nếu có nhiều ảnh: cân nhắc CDN như jsDelivr (GitHub) hoặc Postimages.
 
 ──────────────────────────────────────────────────────────────────────────────
-SỬA LỖI THƯỜNG GẶP
-- CSS linter “Also define the standard property 'background-clip' for compatibility”:
-  đã khai báo background-clip + -webkit-background-clip + -webkit-text-fill-color trong .role-typing.
-- Ảnh Drive không hiện:
-  + Chưa bật chia sẻ công khai
-  + Dùng sai URL (không phải /thumbnail?id=…)
-  + File không phải ảnh/hoặc vượt quota tải
-- Ripple đè lên click: ripple chỉ là <span> chèn vào .app/.action, không cản click; nếu dùng button khác, đảm bảo position/overflow đúng.
-
-──────────────────────────────────────────────────────────────────────────────
 DANH SÁCH CHỖ CẦN THAY THẾ NHANH
 1) Avatar (Header): <img class="avatar" src="LINK_AVATAR">
 2) Icon apps (Header): href + src trong <nav class="apps">…</nav>
@@ -119,4 +109,3 @@ DANH SÁCH CHỖ CẦN THAY THẾ NHANH
 BẢN QUYỀN & GHI CHÚ
 - Bạn được tự do chỉnh sửa/triển khai.
 - Nếu cần mình đóng gói thành .zip hoặc deploy Netlify/Vercel, cứ nhắn.
--->
